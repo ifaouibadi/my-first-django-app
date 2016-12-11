@@ -1,1 +1,2 @@
-# my-first-django-app
+# Learning Django
+
