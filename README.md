@@ -8,3 +8,6 @@ python manage.py migrate
 
 ## create superuser
 python manage.py createsuperuser
+
+## create new app
+python manage.py startapp app_name
