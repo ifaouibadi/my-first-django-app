@@ -17,9 +17,11 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 from LearningDjango import views
+from contact import views as contactViews
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
+    url(r'^contact', contactViews.contact, name='contact'),
     url(r'^blog/', include('blog.urls')),
     url(r'^newsletter/', include('newsletter.urls')),
     url(r'^admin/', admin.site.urls),
