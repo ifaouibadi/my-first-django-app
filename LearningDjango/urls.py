@@ -21,5 +21,6 @@ from LearningDjango import views
 urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^blog/', include('blog.urls')),
+    url(r'^newsletter/', include('newsletter.urls')),
     url(r'^admin/', admin.site.urls),
 ]
